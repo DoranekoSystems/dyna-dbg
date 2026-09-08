@@ -1,9 +1,6 @@
 <div align="center">
-  <img src="docs/images/icon.png" width="96" alt="DynaDbg icon">
 
 # DynaDbg
-
-### See the program. Follow the flow.
 
 <p>A cross-platform GUI debugger for dynamic binary analysis.</p>
 <p><strong>Currently available for Windows x64 only.</strong></p>
@@ -14,11 +11,11 @@
 
 ### [Download the latest Windows x64 binary](https://github.com/DoranekoSystems/dyna-dbg/releases/latest)
 
-No installation from source is required. Download the latest build from **GitHub Releases**.
-
 </div>
 
-![DynaDbg home screen](docs/images/top-page.png)
+<div align="center">
+  <img src="docs/images/top-page.png" width="76%" alt="DynaDbg home screen">
+</div>
 
 ## Debugger
 
@@ -32,12 +29,25 @@ Follow branches and loops through an interactive control-flow graph.
 
 ![DynaDbg Graph View](docs/images/graph-view.jpg)
 
+## Code Tracing
+
+Record executed instructions and inspect register state along the trace.
+
+![DynaDbg Code Tracing](docs/images/code-tracing.jpg)
+
+## Call Analysis
+
+Track function activity and review call counts in real time.
+
+![DynaDbg Call Analysis](docs/images/call-analysis.jpg)
+
 ## Highlights
 
 - Native process debugging
 - Disassembly, memory, and stack views
 - Breakpoints and step execution
 - Interactive control-flow Graph View
+- Code tracing and call analysis
 - Ghidra integration
 
 ## Availability
